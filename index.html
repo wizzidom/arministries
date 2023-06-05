@@ -45,15 +45,20 @@
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Pretoria East, South Africa</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>061 536 9749</small>
+                    <small class="me-3 text-light"> <a href="tel:27615369749"> <i class="fa fa-phone-alt me-2"></i>+27 61 536 9749</a></small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@armofgod.tv</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                  <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/ArmOfGodTV.org"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                   <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/@ArmOfGodTV"><i class="fab fa-youtube fw-normal"></i></a>
-                </div>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://wa.me/27615369749"><i class="fab fa-whatsapp fw-normal"></i></a>
+                 
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/ArmOfGodTV.org"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/amrofgodtv"><i class="fab fa-twitter fw-normal"></i></a>
+       
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/@ArmOfGodTV"><i class="fab fa-youtube fw-normal"></i></a>
+              
+                                </div>
             </div>
         </div>
     </div>
@@ -72,7 +77,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
                     <a href="charity.html" class="nav-item nav-link">Charity</a>
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                          <a href="belief.html" class="nav-item nav-link">Our Belief</a>
@@ -91,7 +96,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Connect With Us</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Arm of God</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">ARM OF GOD</h1>
                             <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About Us</a>
                             <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                         </div>
@@ -102,7 +107,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Connect With Us</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Arm of God</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">ARM OF GOD</h1>
                             <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About Us</a>
                             <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                         </div>
@@ -213,9 +218,143 @@ And Our message will be run on our YouTube and Facebook channel ARM OF GOD TV
         </div>
     </div>
     <!-- About End -->
+<style>
 
+.you li {
+  list-style: none;
+}
 
+.video-media-youtube {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
+.video__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  padding: 0 .9375rem;
+}
+
+.video__content {
+  padding-bottom:  1.25rem;
+}
+
+h2 {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.you h3::before {
+  content: "\f111";
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  font-size: .375rem;
+  font-weight: 900;
+  vertical-align: middle;
+  transform: translateY(-.125rem);
+  padding-right: .9375rem;
+}
+
+.you h3 {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.video-media-youtube-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.media__embed {
+  flex-basis: 100%;
+  padding-bottom: 1.25rem;
+}
+
+.video-media-youtube-inner-vi {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  padding: 0;
+}
+
+.video-media-youtube-inner-vi--ratio {
+  padding-bottom: 75%;
+}
+
+.video-media-youtube-inner-vi iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .video__container {
+    padding: 0 1.25rem;
+  }
+  
+  .video-media-youtube-inner {
+    justify-content: space-between;
+  }
+  
+  .media__embed {
+    flex-basis: calc(50% - .9375rem);
+    padding-bottom: 1.875rem;
+  }
+}
+</style>
+
+    <div class = "you"> 
+        <div class="video-media-youtube">
+                        <ul class="video__container">
+                            <li class="video__content">
+                                <h2>    </h2>
+                                <ul class="video-media-youtube-inner">
+                                    <li class="media__embed">
+                                          <h3></h3>
+                                          <div class="video-media-youtube-inner-vi video-media-youtube-inner-vi--ratio">
+                                            <iframe src="https://www.youtube.com/embed/2BtKA11wW2U" title="Arm of God TV Live Stream" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+                                    </li>
+                
+                                    <li class="media__embed">
+                                          <h3> </h3>
+                                          <div class="video-media-youtube-inner-vi video-media-youtube-inner-vi--ratio">
+                                            <iframe src="https://www.youtube.com/embed/mZRzSzsGQ4A" title="BEWARE OF ANOTHER JESUS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                   </div>
+                                    </li>
+                                  </ul> 
+                            </li>
+            
+                            <li class="video__content">
+                                  <h2></h2>
+                                  <ul class="video-media-youtube-inner">
+                                    <li class="media__embed">
+                                          <h3></h3>
+                                          <div class="video-media-youtube-inner-vi video-media-youtube-inner-vi--ratio">
+                                            <iframe src="https://www.youtube.com/embed/X3PlHbln9lA" title="VICTORY OVER SIN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>              </div>
+                                    </li>
+                
+                                    <li class="media__embed">
+                                          <h3></h3>
+                                          <div class="video-media-youtube-inner-vi video-media-youtube-inner-vi--ratio">
+                                            <iframe  src="https://www.youtube.com/embed/ukPB5kwM444" title="DON’T KEEP YOUR BURDEN WITH YOU DROP THEM AT THE FEET OF JESUS CHRIST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>           </div>
+                                    </li>
+                                  </ul> 
+                            </li>
+        
+                                                          </ul> 
+                            </li>
+                          </ul>     
+                    </div>
+        </div>
     
 
     <!-- Footer Start -->
