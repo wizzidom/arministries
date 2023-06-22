@@ -76,9 +76,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="index.html" class="nav-item nav-link actives">Home</a>
                     <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="https://lboi.org/" class="nav-item nav-link">Charity</a>
+                    <a href="charity.html" class="nav-item nav-link">Charity</a>
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                          
                   
@@ -102,12 +102,12 @@
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style media="screen">
+  <style >
 
 #slider{
 width:100%;
-margin:0px auto;
-margin-top: 10px;
+margin:0px  auto 0px auto;
+margin-top: 1px;
 max-width: 1000px;
 position:relative;
 overflow:hidden;
@@ -193,20 +193,33 @@ background:rgb(7, 67, 213);
     <!--Slider-->
   <div id="slider">
     <div class="slide" style="background:dodgerBlue;">
-      <img src="img/12.jpeg" >
+      <img src="img/01.jpg" >
     </div>
-
     <div class="slide" style="background:dodgerBlue;">
-      <img src="img/13.jpeg" >
+      <img src="img/02.jpg" >
+    </div>
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="img/03.jpg" >
     </div>
     
 
     <div class="slide" style="background:dodgerBlue;">
-      <img src="img/14.jpeg" >
+      <img src="img/10.jpeg" >
     </div>
-
+       <div class="slide" style="background:dodgerBlue;">
+      <img src="img/11.jpeg" >
+    </div>
     <div class="slide" style="background:dodgerBlue;">
-      <img src="img/15.jpeg" >
+      <img src="img/12.jpeg" >
+    </div>
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="img/13.jpeg" >
+    </div>
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="img/14.jpg" >
+    </div>
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="img/15.jpg" >
     </div>
     <div class="slide" style="background:dodgerBlue;">
       <img src="img/16.jpeg" >
@@ -214,18 +227,7 @@ background:rgb(7, 67, 213);
     <div class="slide" style="background:dodgerBlue;">
       <img src="img/17.jpeg" >
     </div>
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="img/18.jpeg" >
-    </div>
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="img/19.jpeg" >
-    </div>
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="img/20.jpeg" >
-    </div>
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="img/20.jpeg" >
-    </div>
+
 
     <!--Controlling arrows-->
     <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
@@ -242,6 +244,7 @@ background:rgb(7, 67, 213);
 var slides = document.querySelectorAll(".slide");
 var dots = document.querySelectorAll(".dot");
 var index = 0;
+console.log(slides.length)
 
 
 function prevSlide(n){
@@ -270,7 +273,7 @@ function changeSlide(){
     for(let i=0;i<slides.length;i++){
       slides[i].style.display = "none";
 
-      dots[i].classList.remove("active");
+      
 
 
     }
@@ -286,7 +289,7 @@ function changeSlide(){
 
 </script>
 
-        <div class="clearfix"></div>
+
         
         
         </body>
